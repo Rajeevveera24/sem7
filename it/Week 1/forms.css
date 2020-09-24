@@ -1,0 +1,20 @@
+form input{
+	align-items: right;
+	width: relative;
+	padding: 10px 10px;
+	margin: 10px 0;
+	width : 70%;
+	height: 30px;
+	margin-right: 10px;
+	/*float: right;*/
+	box-sizing: border-box;
+}
+form input[type = textarea]{
+  	height: 50px;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	border: 2px solid #ccc;
+  	border-radius: 4px;
+  	background-color: #f8f8f8;
+  	resize: relative;
+}

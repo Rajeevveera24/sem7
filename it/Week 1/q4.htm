@@ -1,61 +1,59 @@
 <!DOCTYPE html> 
 <html> 
-<head> 
-<title> Login page </title> 
-<style> 
-body 
-{ 
-	background-color: lightblue; 
-} 
-h1 
-{ 
-	color: white;
-	text-align: center; 
-} 
-p 
-{ 
-	font-family: verdana; 
-	font-size: 20px; 
-} 
-</style>
-
-
-</head>
-
-<body>
-
-<h1 id="heading">Ticket</h1>
-<center>
-<form name="login">
-Name<input type="text" id="user" name="userid"/>
-<br/>
-
-Age:<input type="number" name="age" min="25">
-<br/>
-source<input type="text" id="source"/>
-<br/>
-destination<input type="text" id="dest"/>
-<br/>
-
-Total Ticket:<input type="number" id="ticket" min="0" max="20" step="1" value="0">
-<br/>
-
-<input type="submit" onclick="disp();">
-</form>
-<center>
-<script>
-
-function disp()
-{
-	var obj=document.getElementById("user").value;
-	var t=document.getElementById("ticket").value;
-	var s=document.getElementById("source").value;
-	var d=document.getElementById("dest").value;
-	alert("Mr."+obj+" has booked "+t+" tickets from "+s+" to "+d);
-	
-
-}
-</script>
-
-</body>
+	<head> 
+		<title> Department Feedback Page </title> 
+		<style> 
+			body{ 
+				background-color: lightblue; 
+			} 
+			h1{ 
+				color: white;
+				text-align: center; 
+			} 
+			p{ 
+				font-family: verdana; 
+				font-size: 20px; 
+			}
+			form{
+				width: 40%;
+				text-align: left;
+			}
+		</style>
+		<link rel = "stylesheet" href = "top_nav.css">
+		<link rel = "stylesheet" href = "forms.css">
+	</head>
+	<body>
+		<div class = "topnav" id = "myTopNav" onClick = "idPos(this.id)">
+  			<a href = "#home">Home</a>
+ 			<a href = "#news">News</a>
+  			<a class = "active" href = "#contact">Contact</a>
+  			<a href = "#about">About</a>
+		</div>
+		<h1 id="heading" style = "color:black"> Department Details </h1>
+		<center>
+			<form name = "feedback">
+				Name: &nbsp<input type="text" id="user" name="userid"/>
+				<br/>
+				Age: &nbsp<input type="number" name="age" min="25">
+				<br/>
+				source: &nbsp<input type="text" id="source"/>
+				<br/>
+				destination: &nbsp<input type="text" id="dest"/>
+				<br/>
+				Comments: &nbsp<input type = "textarea" value="">
+				<br/>
+				<input type="submit" onclick="disp();">
+			</form>
+		<center>
+		<script>
+		function disp()
+		{
+			var obj = document.getElementById("user").value;
+			var t = document.getElementById("ticket").value;
+			var s = document.getElementById("source").value;
+			var d = document.getElementById("dest").value;
+			alert("Mr."+obj+" has booked " + t + " tickets from " + s + " to " + d);
+		}
+		</script>
+	</body>
 </html>
