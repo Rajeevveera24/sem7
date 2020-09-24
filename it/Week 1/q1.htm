@@ -1,48 +1,48 @@
 <!DOCTYPE html> 
 <html> 
-<head> 
-<title> Login page </title> 
-<style> 
-body 
-{ 
-	background-color: lightblue; 
-} 
-h1 
-{ 
-	color: white;
-	text-align: center; 
-} 
-p 
-{ 
-	font-family: verdana; 
-	font-size: 20px; 
-} 
-</style>
+	<head> 
+		<title> Home page </title> 
+		<link rel="stylesheet" href="top_nav.css">
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
+		<style> 
+			body{ 
+				background-color: lightblue; 
+			}
+			h1{ 
+				color: white;
+				text-align: center; 
+			} 
+			p{ 
+				font-family: verdana; 
+				font-size: 20px; 
+			} 
+		</style>
+		<script>
+			function idPos(id){
+				var obj = document.getElementById(id);
+				var rect1 = obj.getBoundingClientRect();
+				alert("id: " + id + "\ntop : " + rect1.top + "\nleft : " + rect1.left);
+			}
+		</script>
+	</head>
 
-</head>
-
-<body>
-<h1 id="heading" onClick="idPos(this.id)"> Validate Credentials</h1>
-<form name="login">
-Username<input type="text" id="user" onClick="idPos(this.id)" name="userid"/>
-Password<input type="password" id="password" onClick="idPos(this.id)" name="pswrd"/>
-
-<input type="button" id="but" onClick="idPos(this.id)" value="Login"/>
-<input type="reset" id="res" onClick="idPos(this.id)" value="Cancel"/>
-
-</form>
-
-<script>
-
-function idPos(id)
-{
-	var obj=document.getElementById(id);
-	var rect1=obj.getBoundingClientRect();
-	alert("top : "+rect1.top+"\nleft : "+rect1.left);
-
-}
-</script>
-
-</body>
+	<body>
+		<div class="topnav" id = "myTopNav" onClick = "idPos(this.id)">
+  			<a class="active" href="#home">Home</a>
+ 			<a href="#news">News</a>
+  			<a href="#contact">Contact</a>
+  			<a href="#about">About</a>
+		</div>
+		<h1 id="heading" onClick="idPos(this.id)">Welcome</h1>
+		<form name = "login">
+			Username <input type="text" id="user" onClick="idPos(this.id)" name="userid"/>
+			<br><br>
+			Password <input type="password" id="password" onClick="idPos(this.id)" name = "pswrd"/>
+			<br><br>
+			<input type="button" id="but" onClick="idPos(this.id)" value = "Login"/>
+			&nbsp
+			<input type="reset" id="res" onClick="idPos(this.id)" value = "Reset"/>
+		</form>
+	</body>
 </html>
