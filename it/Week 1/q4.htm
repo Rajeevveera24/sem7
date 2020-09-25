@@ -14,10 +14,6 @@
 				font-family: verdana; 
 				font-size: 20px; 
 			}
-			form{
-				width: 40%;
-				text-align: left;
-			}
 		</style>
 		<link rel = "stylesheet" href = "top_nav.css">
 		<link rel = "stylesheet" href = "forms.css">
@@ -29,30 +25,54 @@
   			<a class = "active" href = "#contact">Contact</a>
   			<a href = "#about">About</a>
 		</div>
+
 		<h1 id="heading" style = "color:black"> Department Details </h1>
 		<center>
 			<form name = "feedback">
-				Name: &nbsp<input type="text" id="user" name="userid"/>
+				Dept Name: &nbsp<input type="text" id="dept" name = "dept_name"/>
 				<br/>
-				Age: &nbsp<input type="number" name="age" min="25">
+				<label for = "code">Dept Code: &nbsp</label>
+				<select name="code" id="code">
+					<option value="CSE">CSE</option>
+					<option value="EEE">EEE</option>
+					<option value="MME">MME</option>
+					<option value="CIVIL">CIE</option>
+					<option value="CHE">CHE</option>
+				</select>
 				<br/>
-				source: &nbsp<input type="text" id="source"/>
+				HOD: &nbsp<input type="text" id = "hod">
 				<br/>
-				destination: &nbsp<input type="text" id="dest"/>
+				Batch Size: &nbsp<input type="number" id = "size" min = 30 max = 300 />
+				<br/>
+				Subjects: <br>
+					<input type = "checkbox" id = "PSUC" name = "PSUC" value = "PSUC">
+					<label for = "PSUC"> PSUC </label><br>
+					<input type = "checkbox" id = "BE" name = "BE" value = "BE">
+					<label for = "BE"> BE </label><br>
+					<input type = "checkbox" id="BET" name = "BET" value = "BET">
+					<label for = "BET"> BET </label><br>
+					<input type = "checkboX" id = "BME" name = "BME" value = "BME">
+					<label for = "BME"> BME </label><br>
+					<input type = "checkbox" id = "MOS" name = "MOS" value = "MOS">
+					<label for = "MOS"> MOS </label><br>
+					<input type = "checkbox" id = "CHE" name = "CHE" value = "CHE">
+					<label for = "CHE"> CHE </label><br>
+					<input type = "checkbox" id = "DS" name = "DS" value = "DS">
+					<label for = "DS"> DS </label><br>		
 				<br/>
 				Comments: &nbsp<input type = "textarea" value="">
 				<br/>
-				<input type="submit" onclick="disp();">
+				<input type="submit" onclick = "disp();">
 			</form>
 		<center>
 		<script>
 		function disp()
 		{
-			var obj = document.getElementById("user").value;
-			var t = document.getElementById("ticket").value;
-			var s = document.getElementById("source").value;
-			var d = document.getElementById("dest").value;
-			alert("Mr."+obj+" has booked " + t + " tickets from " + s + " to " + d);
+			var d = document.getElementById("dept").value;
+			var c = document.getElementById("code").value;
+			var h = document.getElementById("hod").value;
+			var s = document.getElementById("size").value;
+			alert("The " + d +" department with code " + c + " headed by " + h + " has " + s + " students");
 		}
 		</script>
 	</body>
