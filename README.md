@@ -1,2 +1,2 @@
 # sem7
-semester seventh code
+Code for Internet Technologies Lab
