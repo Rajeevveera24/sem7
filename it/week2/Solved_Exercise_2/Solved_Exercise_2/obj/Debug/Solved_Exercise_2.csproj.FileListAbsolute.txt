@@ -1,0 +1,10 @@
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.csprojAssemblyReference.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.Form1.resources
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.Properties.Resources.resources
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.csproj.GenerateResource.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.csproj.CoreCompileInputs.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\bin\Debug\Solved_Exercise_2.exe.config
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\bin\Debug\Solved_Exercise_2.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\bin\Debug\Solved_Exercise_2.pdb
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Solved_Exercise_2\Solved_Exercise_2\obj\Debug\Solved_Exercise_2.pdb

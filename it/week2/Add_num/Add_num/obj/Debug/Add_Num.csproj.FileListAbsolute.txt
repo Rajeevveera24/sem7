@@ -1,0 +1,7 @@
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\bin\Debug\Add_Num.exe.config
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\bin\Debug\Add_Num.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\bin\Debug\Add_Num.pdb
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\obj\Debug\Add_Num.csprojAssemblyReference.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\obj\Debug\Add_Num.csproj.CoreCompileInputs.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\obj\Debug\Add_Num.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Add_Num\Add_Num\obj\Debug\Add_Num.pdb
