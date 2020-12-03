@@ -1,0 +1,6 @@
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q2\obj\Debug\Q2.csproj.CoreCompileInputs.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q2\bin\Debug\Q2.exe.config
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q2\bin\Debug\Q2.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q2\bin\Debug\Q2.pdb
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q2\obj\Debug\Q2.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q2\obj\Debug\Q2.pdb

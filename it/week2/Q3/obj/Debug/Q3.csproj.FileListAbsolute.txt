@@ -1,0 +1,6 @@
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q3\bin\Debug\Q3.exe.config
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q3\bin\Debug\Q3.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q3\bin\Debug\Q3.pdb
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q3\obj\Debug\Q3.csproj.CoreCompileInputs.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q3\obj\Debug\Q3.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\Q3\obj\Debug\Q3.pdb

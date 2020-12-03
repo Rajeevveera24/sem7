@@ -1,0 +1,7 @@
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\bin\Debug\A2.exe.config
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\bin\Debug\A2.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\bin\Debug\A2.pdb
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\obj\Debug\A2.csprojAssemblyReference.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\obj\Debug\A2.csproj.CoreCompileInputs.cache
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\obj\Debug\A2.exe
+C:\Users\rajeev\Desktop\Internet Technologies\sem7\it\week2\A2\obj\Debug\A2.pdb
