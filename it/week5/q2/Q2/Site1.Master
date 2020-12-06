@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Q2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/amazon_logo_RGB.jpg" Height="100px" />
+                <br />AMAZON <br /> Contact:9876543210
+                <br />
+                <asp:HyperLink ID="HyperLink1" NavigateUrl="~/WebForm1.aspx" style="margin-right : 20px" runat="server">Electronics</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" NavigateUrl="~/WebForm2.aspx" style="margin-right : 20px" runat="server">Baggages</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink3" NavigateUrl="~/WebForm3.aspx" runat="server">Offers</asp:HyperLink>
+                <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
